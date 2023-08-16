@@ -1,0 +1,808 @@
+
+/* ================ Extra small device =============== */
+
+@media(max-width:575.98px){
+
+    /* ============================ navbar part start here ======================== */
+    nav {
+        padding: 25px 0;
+    }
+    .nav_wrapper {
+        flex-direction: column;
+    }
+    .menu {
+        flex-direction: column;
+        padding-top: 25px;
+    }
+    .menu ul {
+        flex-direction: column;
+        row-gap: 20px;
+        align-items: center;
+    }
+    .btn a {
+        padding: 13px 26px;
+        border-radius: 15px;
+    }
+    .btn{
+        padding-bottom: 25px;
+    }
+    /* ========================= banner part start here ====================== */
+    #banner {
+        padding: 25px 0;
+    }
+    .banner_wrapper {
+        flex-direction: column;
+    }
+    .banner_img img{
+        width: 100%;
+    }
+    .banner_content{
+        text-align: center;
+    }
+    .banner_content h1{
+        font-size: 28px;
+        line-height: 35px;
+    }
+    .banner_content p {
+        font-size: 14px;
+        line-height: 27px;
+        padding: 20px 0;
+    }
+    .common_btn {
+        padding: 25px 0;
+        display: flex;
+        margin: 0 auto;
+        padding: 25px 0;
+        align-items: center;
+        flex-direction: column;
+        row-gap: 20px;
+        justify-content: center;
+    }
+    /* ========================= work part start here ======================= */
+    #work{
+        padding: 40px 0;
+    }
+    .work_wrapper {
+        flex-direction: column;
+    }
+    .work_two_three_main {
+        width: 100%;
+        padding: 40px 0;
+    }
+    .work_one{
+        width: 100%;
+        text-align: center;
+    }
+    .work_one h2 {
+        font-size: 35px;
+    }
+    .work_two {
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+    .work_three {
+        margin: 0 auto;
+        text-align: center;
+        padding: 10px 0;
+    }
+    .work_one a {
+        padding: 14px 28px;
+    }
+    .work_one p {
+        margin: 35px 0;
+    }
+    /* ====================== project part start here ==================== */
+    #project{
+        padding: 25px 0;
+    }
+    .project_wrapper {
+        flex-direction: column;
+    }
+    .project_wrapper2 {
+        flex-direction: column;
+    }
+    .project_wrapper h2 {
+        text-align: center;
+        font-size: 34px;
+        line-height: 53px;
+        padding-bottom: 25px;
+    }
+    .project_content {
+        width: 100%;
+        padding: 0 15px;
+    }
+    .project_content .overlay {
+        width: 100%;
+    }
+    /* ====================== features part start here ==================== */
+    #features{
+        padding: 25px 0;
+    }
+    .feature_heading h1 {
+        font-size: 26px;
+        line-height: 46px;
+        text-align: center;
+    }
+    .feature_details {
+        width: 100%;
+        padding: 10px;
+    }
+    .feature_main {
+        row-gap: 20px;
+    }
+    /* ====================== jenny wilson part start here ==================== */
+    #wilson{
+        padding: 25px 0;
+    }
+    .wilson_left{
+        text-align: center;
+    }
+    .wilson_right{
+        text-align: center;
+    }
+    .wilson_wrapper {
+        flex-direction: column;
+        row-gap: 25px;
+    }
+    .wilson_left h1 {
+        font-size: 30px;
+        line-height: 44px;
+    }
+    .wilson_right h4 {
+        font-size: 16px;
+        line-height: 31px;
+    }
+    .wilson {
+        justify-content: center;
+    }
+    /* ============================ FAQ part start here ======================== */
+    #question{
+        padding: 25px 0;
+    }
+    .question_wrapper {
+        flex-direction: column;
+    }
+    .right_one span {
+        padding: 20px 15px;
+        column-gap: 25px;
+    }
+    .left_one{
+        text-align: center;
+    }
+    .left_one a {
+        font-size: 15px;
+        padding: 20px 40px;
+    }
+    .left_one h2 {
+        font-size: 30px;
+        line-height: 44px;
+        padding: 10px 0;
+    }
+    .right_one h3 {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    /* ======================= inquery part start here ===================== */
+    .right_inquery {
+        width: 100%;
+        padding: 50px 5px;
+    }
+    .inquery_wrapper {
+        flex-direction: column;
+    }
+    .left_inquery {
+        width: 100%;
+        height: 400px;
+        padding: 50px 5px;
+    }
+    .right_one{
+        margin: 0 auto;
+    }
+    .right_inquery {
+        text-align: center;
+        width: 100%;
+        text-align: center;
+    }
+    .right_inquery input {
+        padding: 10px 40px;
+        text-align: center;
+    }
+    .right_inquery button {
+        padding: 10px 35px;
+        line-height: 20px;
+        font-size: 14px;
+        border-radius: 10px;
+        margin: 20px 0;
+    }
+    /* ======================== blog part start here ==================== */
+    #blog{
+        padding: 25px 0;
+    }
+    .blog_wrapper {
+        flex-direction: column;
+    }
+    .main_blog {
+        width: 100%;
+        padding: 0 10px;
+    }
+    .main_blog .img {
+        width: 100%;
+        padding: 25px 0;
+    }
+    #blog span {
+        font-size: 25px;
+    }
+    .main_blog h1 {
+        font-size: 30px;
+    }
+    .main_blog a {
+        font-size: 14px;
+    }    
+    .main_blog h3 {
+        font-size: 16px;
+        line-height: 27px;
+    }
+    .main_blog p {
+        padding: 15px 0;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    /* ========================= footer part start here ====================== */
+    #talk{
+        background-color: #000;
+    }
+    .talk_wrapper {
+        flex-direction: column;
+    }
+    .talk_main {
+        padding: 12px 10px;
+        text-align: center;
+    }
+    /* ============================ navbar part start here ======================== */
+    .copywrite{
+        padding: 18px 0;
+        background-color: red;
+    }
+    .copywrite p{
+        font-size: 14px;
+        color: #fff;
+    }
+
+}
+
+/* ======================= Small device ============== */
+
+@media(min-width:576px) and (max-width:767.98px){
+
+        /* ============================ navbar part start here ======================== */
+        nav {
+            padding: 25px 0;
+        }
+        .nav_wrapper {
+            flex-direction: column;
+        }
+        .menu {
+            flex-direction: column;
+            padding-top: 25px;
+        }
+        .menu ul {
+            flex-direction: column;
+            row-gap: 20px;
+            align-items: center;
+        }
+        .btn a {
+            padding: 13px 26px;
+            border-radius: 15px;
+        }
+        .btn{
+            padding-bottom: 25px;
+        }
+        /* ========================= banner part start here ====================== */
+        #banner {
+            padding: 25px 0;
+        }
+        .banner_wrapper {
+            flex-direction: column;
+        }
+        .banner_img img{
+            width: 100%;
+        }
+        .banner_content{
+            text-align: center;
+        }
+        .banner_content h1{
+            font-size: 28px;
+            line-height: 35px;
+        }
+        .banner_content p {
+            font-size: 14px;
+            line-height: 27px;
+            padding: 20px 0;
+        }
+        .common_btn {
+            padding: 25px 0;
+            display: flex;
+            margin: 0 auto;
+            padding: 25px 0;
+            align-items: center;
+            flex-direction: column;
+            row-gap: 20px;
+            justify-content: center;
+        }
+        /* ========================= work part start here ======================= */
+        #work{
+            padding: 40px 0;
+        }
+        .work_wrapper {
+            flex-direction: column;
+        }
+        .work_two_three_main {
+            width: 100%;
+            padding: 40px 0;
+        }
+        .work_one{
+            width: 100%;
+            text-align: center;
+        }
+        .work_one h2 {
+            font-size: 35px;
+        }
+        .work_two {
+            width: 100%;
+            height: auto;
+            text-align: center;
+        }
+        .work_three {
+            text-align: center;
+            padding: 10px 0;
+            margin: 0 auto;
+        }
+        .work_one a {
+            padding: 14px 28px;
+        }
+        .work_one p {
+            margin: 35px 0;
+        }
+        /* ====================== project part start here ==================== */
+        #project{
+            padding: 25px 0;
+        }
+        .project_wrapper {
+            flex-direction: column;
+        }
+        .project_wrapper2 {
+            flex-direction: column;
+        }
+        .project_wrapper h2 {
+            text-align: center;
+            font-size: 34px;
+            line-height: 53px;
+            padding-bottom: 25px;
+        }
+        .project_content {
+            width: 100%;
+            padding: 0 15px;
+        }
+        .project_content .overlay {
+            width: 100%;
+        }
+        /* ====================== features part start here ==================== */
+        #features{
+            padding: 25px 0;
+        }
+        .feature_heading h1 {
+            font-size: 26px;
+            line-height: 46px;
+            text-align: center;
+        }
+        .feature_details {
+            width: 100%;
+            padding: 10px;
+        }
+        .feature_main {
+            row-gap: 20px;
+        }
+        /* ====================== jenny wilson part start here ==================== */
+        #wilson{
+            padding: 25px 0;
+        }
+        .wilson_left{
+            text-align: center;
+        }
+        .wilson_right{
+            text-align: center;
+        }
+        .wilson_wrapper {
+            flex-direction: column;
+            row-gap: 25px;
+        }
+        .wilson_left h1 {
+            font-size: 30px;
+            line-height: 44px;
+        }
+        .wilson_right h4 {
+            font-size: 16px;
+            line-height: 31px;
+        }
+        .wilson {
+            justify-content: center;
+        }
+        /* ============================ FAQ part start here ======================== */
+        #question{
+            padding: 25px 0;
+        }
+        .question_wrapper {
+            flex-direction: column;
+        }
+        .right_one span {
+            padding: 20px 15px;
+            column-gap: 25px;
+        }
+        .left_one{
+            text-align: center;
+        }
+        .left_one a {
+            font-size: 15px;
+            padding: 20px 40px;
+        }
+        .left_one h2 {
+            font-size: 30px;
+            line-height: 44px;
+            padding: 10px 0;
+        }
+        .right_one h3 {
+            font-size: 18px;
+            line-height: 30px;
+        }
+        /* ======================= inquery part start here ===================== */
+        .right_inquery {
+            width: 100%;
+            padding: 50px 5px;
+        }
+        .inquery_wrapper {
+            flex-direction: column;
+        }
+        .left_inquery {
+            width: 100%;
+            height: 400px;
+            padding: 50px 5px;
+        }
+        .right_one{
+            margin: 0 auto;
+        }
+        .right_inquery {
+            text-align: center;
+            width: 100%;
+            text-align: center;
+        }
+        .right_inquery input {
+            padding: 10px 40px;
+            text-align: center;
+        }
+        .right_inquery button {
+            padding: 10px 35px;
+            line-height: 20px;
+            font-size: 14px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+        /* ======================== blog part start here ==================== */
+        #blog{
+            padding: 25px 0;
+        }
+        .blog_wrapper {
+            flex-direction: column;
+        }
+        .main_blog {
+            width: 100%;
+            padding: 0 10px;
+        }
+        #blog span {
+            font-size: 25px;
+            margin-left: 10px;
+        }
+        .main_blog .img {
+            width: 100%;
+        }
+        .main_blog h1 {
+            font-size: 30px;
+        }
+        .main_blog h3 {
+            font-size: 16px;
+            line-height: 27px;
+        }
+        .main_blog p {
+            padding: 15px 0;
+            font-size: 12px;
+            line-height: 0;
+        }
+        /* ========================= footer part start here ====================== */
+        #talk{
+            background-color: goldenrod;
+        }
+        .talk_wrapper {
+            flex-direction: column;
+        }
+        .talk_main {
+            padding: 12px 10px;
+            text-align: center;
+        }
+        /* ============================ navbar part start here ======================== */
+        .copywrite{
+            padding: 18px 0;
+            background-color: #fff;
+        }
+        .copywrite p{
+            font-size: 14px;
+            color: #444;
+        }
+    
+}
+
+/*=================== Medium device =================== */
+
+@media(min-width:768px) and (max-width:991.98px){
+
+        /* ============================ navbar part start here ======================== */
+        nav {
+            padding: 25px 0;
+        }
+        .nav_wrapper {
+            flex-direction: column;
+        }
+        .menu {
+            flex-direction: column;
+            padding-top: 25px;
+        }
+        .menu ul {
+            flex-direction: column;
+            row-gap: 20px;
+            align-items: center;
+        }
+        .btn a {
+            padding: 13px 26px;
+            border-radius: 15px;
+        }
+        .btn{
+            padding-bottom: 25px;
+        }
+        /* ========================= banner part start here ====================== */
+        #banner {
+            padding: 25px 0;
+        }
+        .banner_wrapper {
+            flex-direction: column;
+        }
+        .banner_img img{
+            width: 100%;
+        }
+        .banner_content{
+            text-align: center;
+        }
+        .banner_content h1{
+            font-size: 28px;
+            line-height: 35px;
+        }
+        .banner_content p {
+            font-size: 14px;
+            line-height: 27px;
+            padding: 20px 0;
+        }
+        .common_btn {
+            padding: 25px 0;
+            display: flex;
+            margin: 0 auto;
+            padding: 25px 0;
+            align-items: center;
+            flex-direction: column;
+            row-gap: 20px;
+            justify-content: center;
+        }
+        /* ========================= work part start here ======================= */
+        #work{
+            padding: 40px 0;
+        }
+        .work_wrapper {
+            flex-direction: column;
+        }
+        .work_two_three_main {
+            width: 100%;
+            padding: 40px 0;
+        }
+        .work_one{
+            width: 100%;
+            text-align: center;
+        }
+        .work_one h2 {
+            font-size: 35px;
+        }
+        .work_two {
+            width: 100%;
+            height: auto;
+            text-align: center;
+        }
+        .work_three {
+            text-align: center;
+            padding: 10px 0;
+            margin: 0 auto;
+        }
+        .work_one a {
+            padding: 14px 28px;
+        }
+        .work_one p {
+            margin: 35px 0;
+        }
+        /* ====================== project part start here ==================== */
+        #project{
+            padding: 25px 0;
+        }
+        .project_wrapper {
+            flex-direction: column;
+        }
+        .project_wrapper2 {
+            flex-direction: column;
+        }
+        .project_wrapper h2 {
+            text-align: center;
+            font-size: 34px;
+            line-height: 53px;
+            padding-bottom: 25px;
+        }
+        .project_content {
+            width: 100%;
+            padding: 0 15px;
+        }
+        .project_content .overlay {
+            width: 100%;
+        }
+        /* ====================== features part start here ==================== */
+        #features{
+            padding: 25px 0;
+        }
+        .feature_heading h1 {
+            font-size: 26px;
+            line-height: 46px;
+            text-align: center;
+        }
+        .feature_details {
+            width: 100%;
+            padding: 10px;
+        }
+        .feature_main {
+            row-gap: 20px;
+        }
+        /* ====================== jenny wilson part start here ==================== */
+        #wilson{
+            padding: 25px 0;
+        }
+        .wilson_left{
+            text-align: center;
+        }
+        .wilson_right{
+            text-align: center;
+        }
+        .wilson_wrapper {
+            flex-direction: column;
+            row-gap: 25px;
+        }
+        .wilson_left h1 {
+            font-size: 30px;
+            line-height: 44px;
+        }
+        .wilson_right h4 {
+            font-size: 16px;
+            line-height: 31px;
+        }
+        .wilson {
+            justify-content: center;
+        }
+        /* ============================ FAQ part start here ======================== */
+        #question{
+            padding: 25px 0;
+        }
+        .question_wrapper {
+            flex-direction: column;
+        }
+        .right_one span {
+            padding: 20px 15px;
+            column-gap: 25px;
+        }
+        .left_one{
+            text-align: center;
+        }
+        .left_one a {
+            font-size: 15px;
+            padding: 20px 40px;
+        }
+        .left_one h2 {
+            font-size: 30px;
+            line-height: 44px;
+            padding: 10px 0;
+        }
+        .right_one h3 {
+            font-size: 18px;
+            line-height: 30px;
+        }
+        /* ======================= inquery part start here ===================== */
+        .right_inquery {
+            width: 100%;
+            padding: 50px 5px;
+        }
+        .inquery_wrapper {
+            flex-direction: column;
+        }
+        .left_inquery {
+            width: 100%;
+            height: 400px;
+            padding: 50px 5px;
+        }
+        .right_one{
+            margin: 0 auto;
+        }
+        .right_inquery {
+            text-align: center;
+            width: 100%;
+            text-align: center;
+        }
+        .right_inquery input {
+            padding: 10px 40px;
+            text-align: center;
+        }
+        .right_inquery button {
+            padding: 10px 35px;
+            line-height: 20px;
+            font-size: 14px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+        /* ======================== blog part start here ==================== */
+        #blog{
+            padding: 25px 0;
+        }
+        .blog_wrapper {
+            flex-direction: column;
+        }
+        .main_blog {
+            width: 100%;
+            padding: 0 10px;
+        }
+        .main_blog .img {
+            width: 100%;
+        }
+        .main_blog h1 {
+            font-size: 30px;
+        }
+        .main_blog h3 {
+            font-size: 16px;
+            line-height: 27px;
+        }
+        .main_blog p {
+            padding: 15px 0;
+            font-size: 16px;
+            line-height: 0;
+        }
+        /* ========================= footer part start here ====================== */
+        #talk{
+            background-color: goldenrod;
+        }
+        .talk_wrapper {
+            flex-direction: column;
+        }
+        .talk_main {
+            padding: 12px 10px;
+            text-align: center;
+        }
+        /* ============================ navbar part start here ======================== */
+        .copywrite{
+            padding: 18px 0;
+            background-color: #fff;
+        }
+        .copywrite p{
+            font-size: 14px;
+            color: #444;
+        }
+
+}
+
+

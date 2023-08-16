@@ -1,0 +1,701 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ol,li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    line-height: 0.8;
+}
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+/* ====================== navbar part start here ==================== */
+
+nav{
+    padding: 25px 10px;
+    background-color: #1C1E53;
+}
+.nav_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    gap: 48px;
+}
+.btn a{
+    padding: 16px 48px;
+    border: 2px solid #fff;
+    border-radius: 30px;
+    text-transform: capitalize;
+    color: #fff;
+    transition: all linear 0.3s ;
+}
+.btn a:hover{
+    color: #000;
+    background-color: #FCD980;
+}
+.menu ul{
+    display: flex;
+    column-gap: 32px;
+}
+.menu ul li a{
+    color: #fff;
+    text-transform: capitalize;
+    transition: all linear 0.4s;
+}
+.menu ul li a:hover{
+    color:   #FCD980;
+}
+/* ======================== banner part start here ====================== */
+
+#banner{
+    padding: 50px 0;
+    background-color: #1C1E53;
+}
+.banner_wrapper{
+    display: flex;
+}
+.banner_content h1,p{
+    color: #fff;
+}
+.banner_content h1{
+    font-size: 54px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    line-height: 74px;
+}
+.banner_content p{
+    padding-top: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    line-height: 28px;
+}
+.common_btn{
+    margin: 48px 0 128px 0;
+}
+.common_btn a{
+    color: #fff;
+    padding: 16px 56px;
+    transition: all linear 0.3s;
+    border-radius: 25px;
+    text-transform: capitalize;
+    gap: 5px;
+}
+.common_btn a:hover{
+    background-color: #FCD980;
+    color: #000;
+}
+.common_btn i{
+    padding-left: 10px;
+}
+
+/* ========================== work part start here ======================= */
+
+#work{
+    padding: 50px 0;
+    background-color: #fcf403;
+}
+
+.work_wrapper{
+    display: flex;
+    justify-content: space-between;
+
+}
+.work_one{
+    width: 410px;
+}
+.work_one h2{
+    font-size: 48px;
+    font-weight: 600;
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+}
+.work_one a{
+    color: #000;
+    padding: 20px 40px;
+    transition: all linear 0.3s;
+    border-radius: 25px;
+}
+.work_one i{
+    padding-left: 10px;
+}
+.work_one a:hover{
+    background-color: #FCD980;
+}
+.work_one p{
+    color: #000;
+    margin: 23px 0;
+    line-height: 24px;
+}
+.work_two p{
+    color: #000;
+    line-height: 24px;
+}
+.work_two h2{
+    padding: 16px 0;
+    color: #000;
+}
+.work_three p{
+    color: #000;
+    line-height: 24px;
+}
+.work_three{
+    padding-top: 48px;
+}
+.work_three h2{
+    padding: 16px 0;
+}
+.work_two_three_main{
+    width: 624px;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 48px;
+    padding-left: 100px;
+}
+.work_two{
+    width: 300px;
+    height: 100px;
+}
+
+/* ========================== project part start here ======================= */
+
+#project{
+    padding: 50px 0;
+    background-color: #5afc03;
+}
+.project_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 64px;
+}
+.project_wrapper h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+}
+.project_wrapper_btn{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.project_wrapper p, .project_wrapper_btn a i{
+    color: #282938;
+}
+.project_wrapper2{
+    display: flex;
+    gap: 30px;
+}
+.project_content{
+    width: 740px;
+    position: relative;
+    height: 600px;
+}
+.project_content .overlay{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 396px;
+    height: 100%;
+    background-color: #1c1e53a9;
+    padding-left: 48px;
+    padding-top: 312px;
+    opacity: 0;
+    transition: all linear 0.3s;
+}
+.project_content:hover.project_content .overlay{
+    opacity: 1;
+}
+.project_content img{
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+.project_content_pop .overlay h2{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    font-family: 'Poppins', sans-serif;
+}
+.project_content_pop .overlay p{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    font-family: 'Poppins', sans-serif;
+    margin: 16px 0 40px 0;
+}
+.overlay_pop_btn span{
+    color: yellow;
+}
+.overlay_pop_btn a i{
+    color: yellow;
+}
+.project_menu{
+    width: 400;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.project_item{
+    width: 100%;
+    height: 50%;
+    position: relative;
+    object-fit: cover;
+}
+.project_item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.project_item .overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    padding: 129px 0 0 56px;
+    background-color: #1c1e53c7;
+    opacity: 0;
+    transition: all linear 0.3s;
+}
+.project_item .overlay h2{
+    color: #fff;
+    font-size: 24px;
+    line-height: 26px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 10px;
+}
+.project_item:hover.project_item .overlay{
+    opacity: 1;
+}
+
+/* ======================= features part start here =================== */
+
+#features{
+    padding: 80px 0;
+    background-color: #1C1E53;
+}
+.feature_heading{
+    text-align: center;
+    justify-content: center;
+}
+.feature_heading h4{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;  
+    color: #fff;  
+}
+.feature_heading h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    color: #Fff;
+}
+.feature_main{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.feature_details{
+    width: 405px;
+    padding: 58px 32px;
+    background-color: #fff;
+}
+.feature_details img{
+    padding-bottom: 22px;
+    cursor: pointer;
+}
+.feature_details h2{
+    padding-bottom: 12px;
+    line-height: 24px;
+
+}
+.feature_details p{
+    line-height: 24px;
+    color: #000;
+}
+
+/* ===================== jenny wilson part start here ==================== */
+
+#wilson{
+    padding: 50px 0;
+    background-color: #fca903;
+}
+.wilson_wrapper{
+    display: flex;
+    justify-content: space-between;
+    gap: 110px;
+}
+.wilson_left h1{
+    color: #000;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 56px;
+}
+.wilson_left p{
+    color: #000;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    padding-top: 16px;
+}
+.wilson_right h4{
+    color: #000;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px
+}
+.wilson{
+    display: flex;
+    column-gap: 20px;
+    padding-top: 40px;
+    align-items: center;
+}
+.wilson span h5 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+}
+.wilson h6{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 28px;
+}
+
+/* ======================== FAQ part start here ===================== */
+
+ #question{
+    padding: 50px 0;
+    background-color: #1C1E53;
+ }
+ .question_wrapper{
+    display: flex;
+    justify-content: space-between;
+ }
+ .left_one h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 56px;
+    padding-bottom: 30px;
+    color: #fff;
+ }
+ .left_one a{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    color: #fff;
+    padding-top: 16px;
+    padding: 20px 40px;
+    transition: all linear 0.3s;
+    border-radius: 20px;
+ }
+ .left_one a:hover{
+    background-color: #FCD980;
+    color: #fff;
+ }
+ .right_one span{
+    display: flex;
+    padding: 32px 0;
+    gap: 60px;
+ }
+ .right_one h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #fff;
+ }
+ .right_one a{
+    color: #fff;
+ }
+ .right_one p{
+    color: #fff;
+ }
+
+/* ========================= inquery part start here ====================== */
+#inquery{
+    padding: 25px 0;
+    background-color: #FCD980;
+}
+ .inquery_wrapper{
+    display: flex;
+ }
+ .left_inquery{
+    width: 640px;
+    height: 691px;
+    background-color: #1C1E53;
+    position: relative;
+    overflow: hidden;
+ }
+ .left_inquery img{
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;  
+    object-fit: cover;  
+}
+.left_inquery .text{
+    position: absolute;
+    left: 0;
+    top: 45px;
+    content: "";
+    padding: 96px 96px 0 96px ;
+    text-align: center;
+}
+.left_inquery .text h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    color: #fff;
+}
+.left_inquery .text p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    padding-top: 45px;
+}
+.inquery_overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #000000b0;
+    opacity: 0;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+.left_inquery:hover .inquery_overlay{
+    opacity: 1;
+}
+ .right_inquery{
+    width: 640px;
+    overflow: hidden;
+    background-color: #1C1E53;;
+    padding: 96px 96px 48px 96px ;
+ }
+ .right_inquery h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+    color: #fff;
+ }
+ .right_inquery p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #fff;
+    padding: 16px 0;
+ }
+ .right_inquery input{
+    padding: 18px 171px 18px 32px ;
+    background-color: #1C1E53;
+    border: 1px solid #ffffff25;
+    gap: 20px;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 16px;
+ }
+ .right_inquery input ::placeholder{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+ }
+ .right_inquery button{
+    padding: 16px 120px;
+    margin-top: 55px;
+    align-items: center;
+    background-color: #1C1E53;
+    border-radius: 25px;
+    text-align: center;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 32px;
+    transition: all linear 0.3s;
+    border: 1px solid #ffffff28;
+    color: #fff;
+ }
+ .right_inquery button:hover{
+    background-color: #FCD980;
+    color: #000;
+ }
+
+/* ======================== blog part start here ======================= */
+
+ #blog{
+    padding: 50px 0;
+    background-color: #fca903;
+ }
+ #blog span{
+    font-size: 34px;
+ }
+ .main_blog{
+    width: 405px;
+    position: relative;
+ }
+ .blog_wrapper{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 20px;
+ }
+.main_blog .img{
+    width: 405px;
+    height: 270px;
+    position: relative;
+}
+.img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+.main_blog h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    position: absolute;
+    left: 0px ;
+    top: -130px ;
+    content: "";
+}
+.main_blog span{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+}
+.main_blog h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+}
+.main_blog p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    padding-top: 16px;
+}
+.main_blog a{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    transition: all linear 0.3s;
+    padding: 10px 35px;
+    border-radius: 7px;
+}
+.main_blog a:hover{
+    color: #000;
+    background-color: #FCD980;
+}
+
+/* ========================== footer part start here ======================= */
+#talk{
+    padding: 25px 0;
+}
+
+.talk_main{
+    width: 100%;
+    background-color: #1C1E53;
+    padding: 100px 158px ;
+}
+.talk_wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.talk_main h1{
+    color: #fff;
+    font-weight: 600;
+}
+.talk_main p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 22px 95px ;
+    color: #ffffffa3;
+    margin-top: 14px;
+    padding-bottom: 24px;
+}
+.talk_main i{
+    color: #fff;
+    padding: 0 10px;
+}
+
+/* ====================== copywrite part start here ==================== */
+
+.copywrite{
+    text-align: center;
+    padding: 25px 0;
+}
+.copywrite p{
+    color: #000;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 16px;
+}
+
+
+/* font-family: 'Poppins', sans-serif; */
